@@ -1,6 +1,6 @@
 // https://github.com/shajidulashfak/Assignment_Three_Module-16
 
-// No:1.Kilometer To Meter Convert ;
+// No:1. Kilometer To Meter Convert ;
 
 function kilometerToMeter(kilometer){
         var meter = kilometer * 1000;
@@ -8,18 +8,18 @@ function kilometerToMeter(kilometer){
 }
 
 
+// No:2. Budget Calculator ;
+
 var watchPrice = 50;
 var phonePrice = 100;
-var laptopPrice = 500;
-         
+var laptopPrice = 500;        
 
  function budgetCalculator(watch, phone, laptop){
-        var watchTotal = watch * 50;
-        var phoneTotal = phone * 100;
-        var laptopTotal = laptop * 500;
+        var watchTotal = watch * watchPrice;
+        var phoneTotal = phone * phonePrice;
+        var laptopTotal = laptop * laptopPrice;
         
-        return watchTotal + phoneTotal + laptopTotal;     
-        
+        return watchTotal + phoneTotal + laptopTotal;
         
  }
  
@@ -47,7 +47,8 @@ function hotelCost(stayNight){
        return taka;
 }
 
-// No:4.Maga Friend ;
+
+// No:4. Maga Friend ;
 
 function magaFriend(bigerName){
        var name = "";
@@ -58,3 +59,4 @@ function magaFriend(bigerName){
        }
        return name;
 }
+
